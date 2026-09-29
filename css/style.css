@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffeafb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #fff8fe;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+#logo-img img {
+    width: 150px;
+}
+
+li {
+    list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none;
+    background-color: #eb8495c4;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+#menu a:hover {
+    background-color: #ffb0bdc4;
+    color: #ce6f7f;
+}
+
+#botao-atual {
+    background-color: #ffb0bdc4;
+    color: #ce6f7f;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+#titulo-header {
+    color: #eb8495;
+}
+
+footer {
+    background-color: #fff8fe;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+footer img {
+    width: 80px;
+}
