@@ -5,12 +5,13 @@
 }
 
 body {
-    background-color: #ffeafb;
+    background-color: #0952032f;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
 }
 
 header {
-    background-color: #fff8fe;
+    background-color: black;
     display: flex;
     padding: 20px;
     justify-content: space-between;
@@ -36,20 +37,17 @@ li {
 
 #menu a {
     text-decoration: none;
-    background-color: #eb8495c4;
-    color: white;
+    background-color: #9209e2c4;
+    color: #00ff0d;
     padding: 5px;
     border-radius: 8px;
+    font-weight: 500;
 }
 
 #menu a:hover {
-    background-color: #ffb0bdc4;
-    color: #ce6f7f;
-}
-
-#botao-atual {
-    background-color: #ffb0bdc4;
-    color: #ce6f7f;
+    background-color: #00ff0d;
+    color: #9209e2c4;
+    font-weight: 500;
 }
 
 #logo {
@@ -62,11 +60,21 @@ li {
 }
 
 #titulo-header {
-    color: #eb8495;
+    color: #9209e2;
+}
+
+#titulo-header p {
+    color: #00ff0d;
+}
+
+#introdução {
+    background-color: #7000b1;
+    color:white;
+    padding: 20px;
 }
 
 footer {
-    background-color: #fff8fe;
+    background-color: black;
     padding: 20px;
     display: flex;
     flex-direction: row;
