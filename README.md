@@ -4,6 +4,6 @@ objetivo do sistema: Sistema de uma loja de action figures
 
 <img width="752" height="342" alt="geekstore drawio" src="https://github.com/user-attachments/assets/fa60ab84-2abb-4bd7-9110-829337f42ba2" />
 
-CLIENTE: (1:N)
+CLIENTE: 1 cliente para N pedido(1:N)
 
-PEDIDO: (1:N)
+PEDIDO: 1 pedido para N produto(1:N)
